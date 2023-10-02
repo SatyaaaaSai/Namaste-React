@@ -19,16 +19,27 @@ console.log(root.render(heading));
             <h2>I am H2 Tag!</h2>  }
         </div>
     </div>
+     <div id="child">
+        <div id="child1">
+            <h1>I am h1 Tag!</h1>{ h1 and h2 are siblings
+            <h2>I am H2 Tag!</h2>  }
+        </div>
+    </div>
 </div> */
 
-const html=React.createElement(
-    "div",
-    {id:"parent"},
-    React.createElement("div",{id:"child"},
+const html=React.createElement("div",{id:"parent"},[React.createElement("div",
+    {id:"child1"},
     React.createElement("div",{id:"child1"},[
-    React.createElement("h1",{},"i am nested h1"),React.createElement("H2",{}," i am nested h2")
+        React.createElement("h1",{},"I am H1,Tag"),
+        React.createElement("h2",{},"I am H2 Tag")
+    ])
+    ),React.createElement("div",{id:"child2"},
+    React.createElement("div",{id:"child1"},
+    [ React.createElement("h1",{},"I am H1,Tag"),
+    React.createElement("h2",{},"I am H2 Tag")
     ]))
-);
+
+]);
 
 const root2=ReactDOM.createRoot(document.getElementById("root"));
 root2.render(html);
