@@ -15,3 +15,6 @@ How Render Function Works.
 Core of React i.e Using Create Function( Without Using JSX Function)
 
 - [Creating HTML with Core React ](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP01-Inception/App.js#L15)
+
+Why React is Library? 
+
