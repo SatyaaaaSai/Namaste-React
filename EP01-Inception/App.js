@@ -41,5 +41,5 @@ const html=React.createElement("div",{id:"parent"},[React.createElement("div",
 
 ]);
 
-const root2=ReactDOM.createRoot(document.getElementById("root"));
+const root2 = ReactDOM.createRoot(document.getElementById("root"));
 root2.render(html);
