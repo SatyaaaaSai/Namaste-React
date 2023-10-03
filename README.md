@@ -20,16 +20,13 @@ Why React is Library?
 
 ## Episode-02
 
-use of npm
+What is npm!
 
-creation of package.json
+package.json(npm init)
 
-Installing Dependencies
-
-<<<<<<< HEAD
- - Bundler 
-=======
- - Bundler
-   - Difference Between Caret(^) and tilde(~).
+Bundlers
+ -  Parcel.js
+ - Difference Betwwen (^) Caret and (~) tilde.
+ - Package-lock.json 
 
 
