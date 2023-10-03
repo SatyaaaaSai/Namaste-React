@@ -18,3 +18,13 @@ Core of React i.e Using Create Function( Without Using JSX Function)
 
 Why React is Library? 
 
+## Episode-02
+
+use of npm
+
+creation of package.json
+
+Installing Dependencies
+
+ - Bundler 
+
