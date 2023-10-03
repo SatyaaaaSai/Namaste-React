@@ -31,5 +31,5 @@ Installing Dependencies
 =======
  - Bundler
    - Difference Between Caret(^) and tilde(~).
->>>>>>> f13744af16e5e05c0db5ce9a9bcca1186def94cd
+
 
