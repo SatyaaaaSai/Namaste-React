@@ -27,5 +27,5 @@ creation of package.json
 Installing Dependencies
 
  - Bundler
-   - Difference Between Caret(^) and tilde.
+   - Difference Between Caret(^) and tilde(~).
 
