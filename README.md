@@ -25,8 +25,10 @@ What is npm!
 package.json(npm init)
 
 Bundlers
- -  Parcel.js
+ -  Parcel.js(npm install -D parcel)
  - Difference Betwwen (^) Caret and (~) tilde.
- - Package-lock.json 
+ - Package-lock.json
+ - Node-Modules(.gitignore)
+ - Transtitive Dependency
 
 
