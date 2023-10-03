@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is Course Of React Taught By Akshay in Namasate React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatyaaaaSai/Namaste-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Satya Sai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SatyaaaaSai/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/SatyaaaaSai/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
