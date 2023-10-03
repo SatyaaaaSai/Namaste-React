@@ -12,7 +12,7 @@ How Render Function Works.
 
 [Creating Nested HTML](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP01-Inception/App.js#L15)
 
-Core of React i.e Using Create Function( Without Using JSX Function)
+Core of React i.e Using Create Function( Without Using JSX)
 
 - [Creating HTML with Core React ](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP01-Inception/App.js#L15)
 
