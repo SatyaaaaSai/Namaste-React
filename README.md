@@ -12,7 +12,7 @@ How Render Function Works.
 
 [Creating Nested HTML](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP01-Inception/App.js#L15)
 
-Core of React i.e Using Create Function( Without Using JSX Function)
+Core of React i.e Using Create Function( Without Using JSX)
 
 - [Creating HTML with Core React ](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP01-Inception/App.js#L15)
 
@@ -26,5 +26,10 @@ creation of package.json
 
 Installing Dependencies
 
+<<<<<<< HEAD
  - Bundler 
+=======
+ - Bundler
+   - Difference Between Caret(^) and tilde(~).
+>>>>>>> f13744af16e5e05c0db5ce9a9bcca1186def94cd
 
