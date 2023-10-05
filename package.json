@@ -2,7 +2,7 @@
   "name": "react",
   "version": "1.0.0",
   "description": "This is Course Of React Taught By Akshay in Namasate React",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/SatyaaaaSai/Namaste-React#readme",
   "devDependencies": {
-    "parcel": "^2.9.3"
-  }
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "reactdom": "^2.0.0"
+  },
+  "browserlist":[
+      "last 2 versions"
+  ]
 }

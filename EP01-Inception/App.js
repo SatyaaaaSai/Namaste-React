@@ -27,6 +27,8 @@ console.log(root.render(heading));
     </div>
 </div> */
 
+const root2 = ReactDOM.createRoot(document.getElementById("root"));
+
 const html=React.createElement("div",{id:"parent"},[React.createElement("div",
     {id:"child1"},
     React.createElement("div",{id:"child1"},[
@@ -40,6 +42,4 @@ const html=React.createElement("div",{id:"parent"},[React.createElement("div",
     ]))
 
 ]);
-
-const root2 = ReactDOM.createRoot(document.getElementById("root"));
 root2.render(html);
