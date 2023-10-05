@@ -20,16 +20,33 @@ Why React is Library?
 
 ## Episode-02
 
-use of npm
+What is npm!
 
-creation of package.json
+package.json(npm init)
 
-Installing Dependencies
+Bundlers
+ -  Parcel.js(npm install -D parcel)
+ - Difference Betwwen (^) Caret and (~) tilde.
+ - Package-lock.json
+ - Node-Modules(.gitignore)
+ - Transtitive Dependency
+#### Part-02: Igniting our App.
+  - Dev Build
+  - Local Server
+  - HMR = Hot Module Replacement
+  - File Watching Algorithm - written in C++
+  - Caching - Faster Builds
+  - Image Optimization
+  - Minification
+  - Bundling
+  - Compress
+  - Consistent Hashing
+  - Code Splitting
+  - Differential Bundling - support older browsers
+  - Diagnostic
+  - Error Handling
+  - HTTPs
+  - Tree Shaking - remove unused code
+  - Different dev and prod bundles
 
-<<<<<<< HEAD
- - Bundler 
-=======
- - Bundler
-   - Difference Between Caret(^) and tilde(~).
->>>>>>> f13744af16e5e05c0db5ce9a9bcca1186def94cd
 
