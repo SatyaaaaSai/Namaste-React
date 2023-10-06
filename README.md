@@ -31,7 +31,7 @@ Bundlers
  - Node-Modules(.gitignore)
  - Transtitive Dependency
 #### Part-02: Igniting our App.
-  # -Properties of Bundler 
+  ## Properties of Bundler 
   - React And React DOM Imports( npm install React and npm install ReactDom)
 
 ### [Notes of Episode 2](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP02-Igniting_our_App/Episode%202.pdf)
