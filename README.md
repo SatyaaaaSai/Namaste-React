@@ -31,22 +31,29 @@ Bundlers
  - Node-Modules(.gitignore)
  - Transtitive Dependency
 #### Part-02: Igniting our App.
-  - Dev Build
-  - Local Server
-  - HMR = Hot Module Replacement
-  - File Watching Algorithm - written in C++
-  - Caching - Faster Builds
-  - Image Optimization
-  - Minification
-  - Bundling
-  - Compress
-  - Consistent Hashing
-  - Code Splitting
-  - Differential Bundling - support older browsers
-  - Diagnostic
-  - Error Handling
-  - HTTPs
-  - Tree Shaking - remove unused code
-  - Different dev and prod bundles
+  ## Properties of Bundler 
+  - React And React DOM Imports( npm install React and npm install ReactDom)
+
+### [Notes of Episode 2](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP02-Igniting_our_App/Episode%202.pdf)
+
+## Episode-03
+
+### Part-01
+- Commands For Starting The project(npm start and npm run build)
+  
+### Part-02
+- Revise The Previous Concepts.
+  
+### Part-03
+- Learn About JSX
+- Babel Importance
+  
+### Part-04
+- React Components.
+  
+### Part-05
+- More About jsx ( i.e more about how we call from another component)
+
+
 
 
