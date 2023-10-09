@@ -54,6 +54,7 @@ Bundlers
 ### Part-05
 - More About jsx ( i.e more about how we call from another component)
 
+### [Notes of Episode 3](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP03-Laying%20The%20Foundation/Episode%203.pdf)
 
 
 
