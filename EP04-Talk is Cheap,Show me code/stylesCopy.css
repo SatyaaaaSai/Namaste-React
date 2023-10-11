@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border: 1px solid black;
+  }
+  .logo img {
+    width: 175px;
+  }
+  .nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+  }
+  .nav-items > ul > li {
+    margin: 10px;
+    padding: 15px;
+  }
+  .resturant-conatiner{
+      display: flex;
+      flex-wrap: wrap;
+      padding:5px;
+  }
+  .res-card {
+    background-color:#f0f0f0;
+    padding:8px;
+    width: 250px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .res-card:hover {
+      border:1px solid black;
+      cursor: pointer;
+  }
+  .search{
+      padding:10px;
+  }
+  .res-photo{
+      width:100%;
+  }
+  
