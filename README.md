@@ -56,12 +56,21 @@ Bundlers
 
 ### [Notes of Episode 3](https://github.com/SatyaaaaSai/Namaste-React/blob/main/EP03-Laying%20The%20Foundation/Episode%203.pdf)
 
-## Episode-03
+## Episode-04
 
 ### Part-01
 - Building The Food-App.
 
 
 ### [Live Link](http://localhost:1234/)
+
+## Episode-05
+ - Structing The File Format
+ - Two Types Of Imports And Exports Statements
+### Part-02
+   ### React Hooks
+  - ***Reconciliation Algorithm.
+### [React Fiber](https://github.com/acdlite/react-fiber-architecture)
+   
 
 
