@@ -69,6 +69,8 @@ Bundlers
  - Two Types Of Imports And Exports Statements
 ### Part-02
    ### React Hooks
+  - ***Reconciliation Algorithm.
+### [React Fiber](https://github.com/acdlite/react-fiber-architecture)
    
 
 
