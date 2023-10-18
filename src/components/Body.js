@@ -1,9 +1,26 @@
 import ResContainer from "./ResContainer";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import resList from "../utils/mockData";
 
 const Body = () => {
-  const [listOfResturants, setlistofResturants] = useState(resList)
+  const [listOfResturants, setlistofResturants] = useState([])
+
+  useEffect(()=>{
+    fetchData();
+  },[])
+  
+  const fetchData = async ()=>{
+   const data= await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING")
+   // const data= await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING")
+
+  const json= await data.json();
+  
+   setlistofResturants(json?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+  // setlistofResturants(json.data.cards)
+  console.log(json);
+
+  }
+
   return (
     <div className="body">
       <div className="filter">
@@ -16,16 +33,6 @@ const Body = () => {
           }}
         >
           Top Rated Resturants.
-        </button>
-        <button
-          onClick={() => {
-            const res1 = listOfResturants.filter(
-              (res) => res.info.avgRating > 3 && res.info.avgRating <= 4 
-            );
-            setlistofResturants(res1);
-          }}
-        >
-          Medium Ranged Resturants.
         </button>
       </div>
       <div className="resturant-conatiner">
