@@ -72,5 +72,8 @@ Bundlers
   - ***Reconciliation Algorithm.
 ### [React Fiber](https://github.com/acdlite/react-fiber-architecture)
    
-
+## Episode-06
+ - Brief about monolith and microservice.
+### Part-02
+ -Swiggy API
 
