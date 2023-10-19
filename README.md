@@ -76,4 +76,8 @@ Bundlers
  - Brief about monolith and microservice.
 ### Part-02
  -Swiggy API
+### Part-03
+ - Shimmer UI
+### Part-04
+ - 
 
