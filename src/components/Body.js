@@ -45,10 +45,11 @@ const Body = () => {
         <button
           onClick={() => {
             const filterdrestro = listOfResturants.filter((res) => {
-              res.info.name.toLowerCase().includes(searchText.toLowerCase);
+             res.card.name.includes(searchText);
             });
-            setlistofResturants(filterdrestro);
             console.log(searchText);
+            setlistofResturants(filterdrestro);
+     
           }}
         >
           Search
