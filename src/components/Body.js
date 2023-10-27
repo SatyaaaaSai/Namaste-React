@@ -45,11 +45,11 @@ const Body = () => {
         <button
           onClick={() => {
             const filterdrestro = listOfResturants.filter((res) => {
-             res.card.name.includes(searchText);
+              return res.info.name.includes(searchText);
             });
+
             console.log(searchText);
             setlistofResturants(filterdrestro);
-     
           }}
         >
           Search
