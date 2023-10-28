@@ -79,5 +79,8 @@ Bundlers
 ### Part-03
  - Shimmer UI
 ### Part-04
- - 
+ - search Functionality
 
+## Episode-07
+
+- Dive Deep into the react hooks.
