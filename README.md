@@ -87,4 +87,4 @@ Bundlers
 
 ## Episode-08
 
-### [React Life Cycle Method](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+### [****React Life Cycle Method ****](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
