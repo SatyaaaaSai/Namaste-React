@@ -84,3 +84,12 @@ Bundlers
 ## Episode-07
 
 - Dive Deep into the react hooks.
+
+## Episode-08
+
+### [****React Life Cycle Method ****](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+## Episode-09
+
+ -Custom Hooks
+ -LazyLoading
