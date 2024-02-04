@@ -6,20 +6,20 @@ const Header = () => {
   const [btnname, setbtnname] = useState("login");
   const onlinestatus=useOnlineStaus();
   return (
-    <div className="header">
+    <div className="header flex justify-between mx-10">
       <div className="logo">
-        <img src={LOGO_URL} />
+        <img className="w-56" src={LOGO_URL} />
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>Online Status:{onlinestatus? "✅":"❌"}</li>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="./About">About Us</Link></li>
-          <li><Link to="./Contact">Contact us</Link></li>
-          <li><Link to="./Grocery">Grocery</Link></li>
-          <li>Cart</li>
+      <div className="nav-items flex items-center">
+        <ul className="flex list-none text-base">
+          <li className="m-2 p-2 hover:text-cyan-300">Online Status:{onlinestatus? "✅":"❌"}</li>
+          <li className="m-2 p-2 hover:text-cyan-300"><Link to="/">Home</Link></li>
+          <li className="m-2 p-2 hover:text-cyan-300" ><Link to="./About">About Us</Link></li>
+          <li className="m-2 p-2 hover:text-cyan-300"><Link to="./Contact">Contact us</Link></li>
+          <li className="m-2 p-2 hover:text-cyan-300"><Link to="./Grocery">Grocery</Link></li>
+          <li className="m-2 p-2 hover:text-cyan-300">Cart</li>
           <button
-            className="login-btn"
+            className="m-2 p-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-sm"
             onClick={() => {
               btnname === "login" ? setbtnname("logout") : setbtnname("login");
             }}
