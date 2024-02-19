@@ -79,7 +79,9 @@ Bundlers
 ### Part-03
  - Shimmer UI
 ### Part-04
- - search Functionality
+ - What is the UseOf useState()?Why Normal JS Varibales Doesnot Work?
+ - why "CONST" infort of useState?It Doesnot Accept The Fundamentals Of JS?
+   
 
 ## Episode-07
 
