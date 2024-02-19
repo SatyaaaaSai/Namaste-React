@@ -32,7 +32,6 @@ const Body = () => {
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants || []);
     setfilteredrestro(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-
     // setlistofResturants(json.data.cards)
     
   };

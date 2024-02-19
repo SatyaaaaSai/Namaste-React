@@ -30,6 +30,7 @@ const AppLayout = () => {
     <div>
       <Header/>
       <Outlet/>
+     
     </div>
   );
 };

@@ -11,7 +11,7 @@ const ResContainer = (props) => {
     cloudinaryImageId,
   } = resData.info;
   return (
-    <div className="m-4 p-4 w-[210px] bg-gray-100 hover:bg-gray-200 rounded-lg">
+    <div className="m-4 p-4 w-[210px] h-fit bg-gray-100 hover:bg-gray-200 rounded-lg">
       <img
         className="rounded-lg"
         alt="res-photo"

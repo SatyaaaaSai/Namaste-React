@@ -1,4 +1,4 @@
-import { useState }  from "react";
+import { useState } from "react";
 import RestroitemList from "./RestroitemsList";
 
 const ResturantCategory = ({ data }) => {
@@ -27,4 +27,7 @@ const ResturantCategory = ({ data }) => {
   );
 };
 
+
 export default ResturantCategory;
+
+
