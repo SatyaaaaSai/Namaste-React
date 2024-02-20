@@ -6,8 +6,8 @@ const Header = () => {
   const [btnname, setbtnname] = useState("login");
   const onlinestatus=useOnlineStaus();
   return (
-    <div className="header flex justify-between mx-10">
-      <div className="logo">
+    <div className="header flex justify-between mx-10 bg-slate-100">
+      <div className="logo bg-slate-100">
         <img className="w-56" src={LOGO_URL} />
       </div>
       <div className="nav-items flex items-center">

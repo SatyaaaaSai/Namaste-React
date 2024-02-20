@@ -94,7 +94,7 @@ const Body = () => {
         {filteredrestro.map((resturant) => (
           <Link key={resturant.info.id} to={"/resturants/" + resturant.info.id}>
            
-            {resturant?.info?.veg ?<Opened resData={resturant}/>:<ResContainer resData={resturant}  />}
+            {resturant?.info?.isOpen ?<Opened resData={resturant}/>:<ResContainer resData={resturant}  />}
             {/* <ResContainer resData={resturant}  */}
           </Link>
         ))}

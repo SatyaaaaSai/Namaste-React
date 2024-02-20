@@ -95,3 +95,15 @@ Bundlers
 
  -Custom Hooks
  -LazyLoading
+ 
+
+## Episode-11
+
+- Controlled and Uncontrolled Components
+- How to pass data from child to Parent componenet(via callback function)
+- Above Topics are Called Lifting the state Up.Study more about in React Docs.
+
+
+ # Order
+ - First It Enters into The (ResMenu) and iterate sections in it i.e(ResturantCategory)
+ - Whenever we clicked That Button,We get the RestroItem List(RestroitemsList)

@@ -1,7 +1,7 @@
 import { IMG_URL } from "../utils/constants";
 
 const RestroitemList = ({ items }) => {
-  console.log(items);
+  console.log("item list ",items);
   return (
     <div>
       {items.map((item) => (

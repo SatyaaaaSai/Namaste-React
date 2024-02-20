@@ -28,11 +28,13 @@ const ResContainer = (props) => {
   );
 };
 
+
+//HigherOrder Components!!!
 export const openedLabel = (ResContainer) => {
   return (props) => {
     return (
       <div>
-        <label className="absolute m-2 px-2 bg-black text-white rounded-lg">Veg Items</label>
+        <label className="absolute m-2 px-2 bg-black text-white rounded-lg">Opened</label>
         <ResContainer {...props} />
       </div>
     );
