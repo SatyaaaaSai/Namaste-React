@@ -3,13 +3,15 @@ import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import useResMenu from "../utils/useResMenu";
 import ResturantCategory from "./ResturantCategory";
-import Error  from "./Error";
+import Error from "./Error";
 const ResMenu = () => {
+  //This Usestate for Child Component Accordion.
+  const [showIndex, setShowIndex] = useState(null);
   const { resId } = useParams();
 
   const resInfo = useResMenu(resId);
 
-   console.log("resinfo",resInfo);
+  console.log("resinfo", resInfo);
   // console.log("second console",resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card);
 
   if (resInfo === null) return <Shimmer />;
@@ -20,7 +22,7 @@ const ResMenu = () => {
   //  cards[0]
   const { itemCards } =
     resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
-    //cards[2]
+  //cards[2]
   console.log(
     "second console",
     resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards
@@ -31,9 +33,9 @@ const ResMenu = () => {
         c?.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
-    if(categories===undefined){
-      return <div> {<Error/>}</div>
-    }
+  if (categories === undefined) {
+    return <div> {<Error />}</div>;
+  }
   console.log(itemCards);
   return (
     <div className="text-center">
@@ -43,9 +45,16 @@ const ResMenu = () => {
           {cuisines.join(",")}-{costForTwoMessage}
         </h3>
       </div>
-       <div>
-       { categories.map((category,index) => <ResturantCategory key={index} data={category.card.card} showItems={false}/>)}
-      </div> 
+      <div>
+        {categories.map((category, index) => (
+          <ResturantCategory
+            key={index}
+            data={category.card.card}
+            showItems={index === showIndex ? true : false}
+            showIndexFunction={() => setShowIndex(index)}
+          />
+        ))}
+      </div>
     </div>
   );
 };

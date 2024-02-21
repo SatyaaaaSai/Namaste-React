@@ -10,7 +10,9 @@ import Error  from "./components/Error";
 import ResMenu from "./components/ResMenu";
 import { lazy } from "react";
 import Shimmer from "./components/Shimmer";
-
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import CartPage from "./components/CartPage";
 /**
  *  Header
  *  -Logo
@@ -27,11 +29,12 @@ import Shimmer from "./components/Shimmer";
 
 const AppLayout = () => {
   return (
+    <Provider store={appStore}>
     <div>
       <Header/>
       <Outlet/>
-     
     </div>
+    </Provider>
   );
 };
 
@@ -64,6 +67,10 @@ const Approuter=createBrowserRouter([
           <Grocery/>
           </Suspense>,
       },
+      {
+        path:"/cart",
+        element:<CartPage/>
+      }
     ],
     errorElement:<Error/>,
   }

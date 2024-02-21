@@ -2,9 +2,13 @@ import { LOGO_URL } from "../utils/constants";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStaus from "../utils/useOnlineStatus";
+import { useSelector } from "react-redux";
+
 const Header = () => {
   const [btnname, setbtnname] = useState("login");
   const onlinestatus=useOnlineStaus();
+  //For Redux 
+  const cartItems=useSelector((store)=>store.cart.items)
   return (
     <div className="header flex justify-between mx-10 bg-slate-100">
       <div className="logo bg-slate-100">
@@ -17,7 +21,8 @@ const Header = () => {
           <li className="m-2 p-2 hover:text-cyan-300" ><Link to="./About">About Us</Link></li>
           <li className="m-2 p-2 hover:text-cyan-300"><Link to="./Contact">Contact us</Link></li>
           <li className="m-2 p-2 hover:text-cyan-300"><Link to="./Grocery">Grocery</Link></li>
-          <li className="m-2 p-2 hover:text-cyan-300">Cart</li>
+          <li className="m-2 p-2 hover:text-cyan-300"><Link to="./cart">Cart-{cartItems.length}</Link>
+          </li>
           <button
             className="m-2 p-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-sm"
             onClick={() => {

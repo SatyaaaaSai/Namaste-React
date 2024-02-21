@@ -51,7 +51,7 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="flex">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between ">
           <input
             type="text"
             className=" p-2 ml-64 w-64 bg-gray-100 text-black-200 rounded border border-gray-300 focus:outline-none focus:ring focus:ring-blue-400 focus:border-blue-600"
@@ -90,7 +90,7 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap flex-1">
         {filteredrestro.map((resturant) => (
           <Link key={resturant.info.id} to={"/resturants/" + resturant.info.id}>
            

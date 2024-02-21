@@ -1,10 +1,10 @@
 import { useState } from "react";
 import RestroitemList from "./RestroitemsList";
 
-const ResturantCategory = ({ data,showItems}) => {
+const ResturantCategory = ({ data,showItems,showIndexFunction}) => {
   // const[showItems,setShowItems]=useState(true);
   const handleClick=()=>{
-
+    showIndexFunction();
   }
   return (
     <div>
