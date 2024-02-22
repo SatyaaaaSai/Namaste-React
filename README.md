@@ -104,6 +104,15 @@ Bundlers
 - Above Topics are Called Lifting the state Up.Study more about in React Docs.
 
 
+## Episode-13 
+- # Setting Up The React Test App
+- Install React Testing Library (`npm i -D @testing-library/react`)
+- Install Jest Library (`npm i -D jest`)
+- Install Babel Depenedencies For Jest (`npm install --save-dev babel-jest @babel/core @babel/preset-env`)
+- Config babel.config.js.
+
+
+
  # Order
  - First It Enters into The (ResMenu) and iterate sections in it i.e(ResturantCategory)
  - Whenever we clicked That Button,We get the RestroItem List(RestroitemsList)

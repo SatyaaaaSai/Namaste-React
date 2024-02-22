@@ -6,7 +6,7 @@ const CartPage = () => {
   const dispatch = useDispatch();
 
   const clearCartfn = (e) => {
-    e.preventDefault();
+   
     dispatch(clearCart());
   };
   return (
@@ -14,7 +14,7 @@ const CartPage = () => {
       <div className="text-center font-bold text-2xl m-4 p-4">Cart</div>
       <div className="flex items-center justify-center">
         <button
-          className="bg-black text-white p-1 hover:bg-blue-600 "
+          className="bg-black text-white p-1 hover:bg-blue-600 mx-24 "
           onClick={() => clearCartfn()}
         >
           Clear Cart
