@@ -108,8 +108,9 @@ Bundlers
 - # Setting Up The React Test App
 - Install React Testing Library (`npm i -D @testing-library/react`)
 - Install Jest Library (`npm i -D jest`)
-- Install Babel Depenedencies For Jest (`npm install --save-dev babel-jest @babel/core @babel/preset-env`)
-- Config babel.config.js.
+- Install Babel Depenedencies For Jest (`npm install --save-dev babel-jest @babel/core @babel/preset-env`) in jest Official Docs.
+- Configure babel.config.js. [These From Official Docs ](https://jestjs.io/docs/getting-started#using-babel)
+- Configure parcel config file to disable defalult babel transpilation.[These From Official Docs](https://parceljs.org/languages/javascript/#babel)
 
 
 
