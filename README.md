@@ -111,7 +111,9 @@ Bundlers
 - Install Babel Depenedencies For Jest (`npm install --save-dev babel-jest @babel/core @babel/preset-env`) in jest Official Docs.
 - Configure babel.config.js. [These From Official Docs ](https://jestjs.io/docs/getting-started#using-babel)
 - Configure parcel config file to disable defalult babel transpilation.[These From Official Docs](https://parceljs.org/languages/javascript/#babel)
-
+- Jest Configuration (`bash npx jest --init`)
+- Install JS Dom Library [These From Off Docs] (https://testing-library.com/docs/react-testing-library/setup#jest-28)
+- Create Folder in Components For i.e __tests__
 
 
  # Order
