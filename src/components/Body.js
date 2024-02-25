@@ -13,7 +13,7 @@ const Body = () => {
     fetchData();
   }, []);
 
-  console.log(listOfResturants);
+  //console.log(listOfResturants);
   
   //For Higher Order Componets.
   const Opened=openedLabel(ResContainer);
@@ -49,10 +49,11 @@ const Body = () => {
   return listOfResturants.length  ===  0 ? (
     <Shimmer />
   ) : (
-    <div className="body">
+    <div className="body" >
       <div className="flex">
         <div className="flex items-center justify-between ">
           <input
+          data-testid="InputBox"
             type="text"
             className=" p-2 ml-64 w-64 bg-gray-100 text-black-200 rounded border border-gray-300 focus:outline-none focus:ring focus:ring-blue-400 focus:border-blue-600"
             placeholder="enter the resturant you want"

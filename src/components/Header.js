@@ -5,7 +5,7 @@ import useOnlineStaus from "../utils/useOnlineStatus";
 import { useSelector } from "react-redux";
 
 const Header = () => {
-  const [btnname, setbtnname] = useState("login");
+  const [btnname, setbtnname] = useState("Login");
   const onlinestatus=useOnlineStaus();
   //For Redux 
   const cartItems=useSelector((store)=>store.cart.items)
@@ -26,7 +26,7 @@ const Header = () => {
           <button
             className="m-2 p-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-sm"
             onClick={() => {
-              btnname === "login" ? setbtnname("logout") : setbtnname("login");
+              btnname === "Login" ? setbtnname("Logout") : setbtnname("Login");
             }}
           >
             {btnname}

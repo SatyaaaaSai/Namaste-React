@@ -112,8 +112,11 @@ Bundlers
 - Configure babel.config.js. [These From Official Docs ](https://jestjs.io/docs/getting-started#using-babel)
 - Configure parcel config file to disable defalult babel transpilation.[These From Official Docs](https://parceljs.org/languages/javascript/#babel)
 - Jest Configuration (`bash npx jest --init`)
-- Install JS Dom Library [These From Off Docs] (https://testing-library.com/docs/react-testing-library/setup#jest-28)
+- Install JS Dom Library [These From Off Docs](https://testing-library.com/docs/react-testing-library/setup#jest-28)
 - Create Folder in Components For i.e __tests__
+- Install @babel/preset-react - To make JSX work in Test Cases(npm i -D @babel/preset-react)
+- Add This into babel.config.js File 
+- We Need To install "@testing-library/jest-dom" For Exuecting toBeInTheDocument Functiond (`npm i -D @testing-library/jest-dom`)
 
 
  # Order

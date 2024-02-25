@@ -31,7 +31,7 @@ const RestroitemList = ({ items }) => {
           <div className="p-2  w-3/12">
             <div className="absolute">
               <button
-                className=" bg-white p-1 m-8   text-green-600 rounded-lg "
+                className=" bg-white p-1 m-8 rounded-lg hover:bg-blue-600"
                 onClick={() => handleClick(item)}
               >
                 Add+

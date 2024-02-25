@@ -1,7 +1,8 @@
 import { IMG_URL } from "../utils/constants";
 const ResContainer = (props) => {
   const { resData } = props;
-
+  
+  console.log(resData);
   const {
     name,
     cuisines,
@@ -11,7 +12,7 @@ const ResContainer = (props) => {
     cloudinaryImageId,
   } = resData.info;
   return (
-    <div className="m-4 p-4 w-[210px] h-fit bg-gray-100 hover:bg-gray-200 rounded-lg">
+    <div data-testid="resCard" className="m-4 p-4 w-[210px] h-fit bg-gray-100 hover:bg-gray-200 rounded-lg" >
       <img
         className="rounded-lg"
         alt="res-photo"
